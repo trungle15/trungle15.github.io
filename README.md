@@ -65,3 +65,11 @@ docker compose down
 # License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+# Trung note:
+
+- [x] Pull this repo down
+- [x] Knew how to deploy with yarn and Docker 
+- [ ] Change all the basic info and commit
+- [ ] Learn how each component interact
+- [ ] git branch to add my own features like Carmen Gutierrez

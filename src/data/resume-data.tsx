@@ -18,14 +18,15 @@ import {
   YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { title } from "process";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Trung Le",
+  initials: "TL",
+  location: "Grinnell, IA",
+  locationLink: "https://www.google.com/maps/place/Grinnell",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Machine learning Engineer",
   summary:
     "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
@@ -53,10 +54,10 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Grinnell College",
+      degree: "Bachelor's Degree in Computer Science and Economics with a concentration in Statistics",
+      start: "2021",
+      end: "2025",
     },
   ],
   work: [
@@ -274,5 +275,11 @@ export const RESUME_DATA = {
         "Video streaming mobile application for Canal Digital subscribers",
       logo: CDGOLogo,
     },
+    {
+      title: "Dummy",
+      techStack: ["Really cool tech", "Stack"],
+      description: 
+        "very cool description",
+    }
   ],
 } as const;
