@@ -26,30 +26,30 @@ export const RESUME_DATA = {
   location: "Grinnell, IA",
   locationLink: "https://www.google.com/maps/place/Grinnell",
   about:
-    "Machine learning Engineer",
+    "Grinnell '25. Data Scientist & ML Engineer. Currently playing around with Transformers and LLMs.",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+    "I am proficient in Python and ML tools.",
+  avatarUrl: "https://media.licdn.com/dms/image/C5603AQFgxpUFw7RTLQ/profile-displayphoto-shrink_800_800/0/1651910104349?e=1721260800&v=beta&t=Nb8c1r2MaVwz81rXdVdwKwEuH5YYQRN_y9WxTk6IWGE",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "letrung@grinnell.edu",
+    // tel: "+1 (641) 510-1367",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/trungle15",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/thanhtrung-le/",
         icon: LinkedInIcon,
       },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
-      },
+      // {
+      //   name: "X",
+      //   url: "https://x.com/BartoszJarocki",
+      //   icon: XIcon,
+      // },
     ],
   },
   education: [
