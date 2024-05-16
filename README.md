@@ -72,3 +72,4 @@ docker compose down
 - [x] Change all the basic info and commit
 - [x] Learn how each component interact
 - [ ] git branch to add my own features like Carmen Gutierrez
+- [ ] add dark mode
