@@ -70,6 +70,6 @@ docker compose down
 
 - [x] Pull this repo down
 - [x] Knew how to deploy with yarn and Docker 
-- [ ] Change all the basic info and commit
-- [ ] Learn how each component interact
+- [x] Change all the basic info and commit
+- [x] Learn how each component interact
 - [ ] git branch to add my own features like Carmen Gutierrez
