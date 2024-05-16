@@ -106,7 +106,11 @@ export default function Page() {
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                      <a className="hover:underline" href={work.link}>
+                      <a
+                        // className="decoration-red-400 hover:underline"
+                        className="underline decoration-transparent transition duration-300 ease-in-out hover:underline hover:decoration-red-400"
+                        href={work.link}
+                      >
                         {work.company}
                       </a>
 
@@ -127,7 +131,7 @@ export default function Page() {
                     </div>
                   </div>
 
-                  <h4 className="font-mono text-sm leading-none">
+                  <h4 className="font-mono text-sm font-semibold leading-none">
                     {work.title}
                   </h4>
                 </CardHeader>
