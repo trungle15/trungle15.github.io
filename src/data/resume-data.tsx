@@ -46,7 +46,7 @@ export const RESUME_DATA = {
       badges: ["Grinnell, IA"],
       title: "Data Scientist / AI Engineer",
       logo: ParabolLogo,
-      start: "2022",
+      start: "Feb 2024",
       end: null,
       description: [
         "I led development of end-to-end construction cost forecasting system on AWS Sagemaker, utilizing embedding model and Transfomers. ",
@@ -58,8 +58,8 @@ export const RESUME_DATA = {
       link: "https://grinnell.edu",
       badges: ["Grinnell, IA"],
       title: "ML Research Assistant",
-      start: "2022",
-      end: "2023",
+      start: "May 2023",
+      end: "Dec 2023",
       description: null,
     },
     {
