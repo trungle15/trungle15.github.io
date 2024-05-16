@@ -1,25 +1,5 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
+import { ParabolLogo } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
-import { describe } from "node:test";
-import { start } from "repl";
 
 export const RESUME_DATA = {
   name: "Trung Le",
@@ -34,7 +14,6 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "letrung@grinnell.edu",
-    // tel: "+1 (641) 510-1367",
     social: [
       {
         name: "GitHub",
