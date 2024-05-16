@@ -13,7 +13,7 @@ export const RESUME_DATA = {
   summary: "I am proficient in Python and ML tools.",
   avatarUrl:
     "https://media.licdn.com/dms/image/C5603AQFgxpUFw7RTLQ/profile-displayphoto-shrink_800_800/0/1651910104349?e=1721260800&v=beta&t=Nb8c1r2MaVwz81rXdVdwKwEuH5YYQRN_y9WxTk6IWGE",
-  personalWebsiteUrl: "https://jarocki.me",
+  personalWebsiteUrl: "https://trungle15.github.io/",
   contact: {
     email: "letrung@grinnell.edu",
     tel: null,
