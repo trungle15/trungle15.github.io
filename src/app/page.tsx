@@ -160,9 +160,22 @@ export default function Page() {
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Skills</h2>
+          <h3 className="text-l font-bold">Languages</h3>
           <div className="flex flex-wrap gap-1">
-            {RESUME_DATA.skills.map((skill) => {
-              return <Badge key={skill}>{skill}</Badge>;
+            {RESUME_DATA.languages.map((language) => {
+              return <Badge key={language}>{language}</Badge>;
+            })}
+          </div>
+          <h3 className="text-m font-bold">Frameworks</h3>
+          <div className="flex flex-wrap gap-1">
+            {RESUME_DATA.frameworks.map((framework) => {
+              return <Badge key={framework}>{framework}</Badge>;
+            })}
+          </div>
+          <h3 className="text-m font-bold">Technologies</h3>
+          <div className="flex flex-wrap gap-1">
+            {RESUME_DATA.technologies.map((tech) => {
+              return <Badge key={tech}>{tech}</Badge>;
             })}
           </div>
         </Section>
