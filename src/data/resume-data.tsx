@@ -1,5 +1,7 @@
 import { ParabolLogo } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon } from "@/components/icons";
+import { decodeFormState } from "next/dist/server/app-render/entry-base";
+import { Description } from "@radix-ui/react-dialog";
 
 export const RESUME_DATA = {
   name: "Trung Le",
@@ -45,7 +47,7 @@ export const RESUME_DATA = {
       title: "Data Scientist / AI Engineer",
       logo: ParabolLogo,
       start: "2022",
-      // end: "2024",
+      end: null,
       description: [
         "I led development of end-to-end construction cost forecasting system on AWS Sagemaker, utilizing embedding model and Transfomers. ",
         "Technologies: AWS Sagemaker, AWS Bedrock, Microsoft SQL Server, Scikit-Learn, PyTorch, HuggingFace.",
@@ -58,6 +60,7 @@ export const RESUME_DATA = {
       title: "ML Research Assistant",
       start: "2022",
       end: "2023",
+      description: null,
     },
     {
       company: "Galaxy FinX",
@@ -66,6 +69,7 @@ export const RESUME_DATA = {
       title: "Product Data Analyst",
       start: "2022",
       end: "2023",
+      description: null,
     },
     {
       company: "Boston Consulting Group",
@@ -74,6 +78,7 @@ export const RESUME_DATA = {
       title: "Business Analyst Intern",
       start: "2022",
       end: "2023",
+      description: null,
     },
   ],
   frameworks: [
