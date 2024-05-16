@@ -1,5 +1,5 @@
 import { ParabolLogo } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Trung Le",
@@ -14,6 +14,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "letrung@grinnell.edu",
+    tel: null,
     social: [
       {
         name: "GitHub",
