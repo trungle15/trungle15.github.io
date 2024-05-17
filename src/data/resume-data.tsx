@@ -100,7 +100,7 @@ export const RESUME_DATA = {
     "HTML/CSS",
     "Bash",
   ],
-  technologies: ["AWS", "Docker", "Linux", "REST APIs"],
+  technologies: ["AWS", "Docker", "Linux", "REST APIs", "LangFlow"],
   projects: [
     {
       title: "TSC for Cannabis-impaired Driving",
