@@ -12,7 +12,7 @@ export const RESUME_DATA = {
     "Grinnell '25. Data Scientist & ML Engineer. Currently playing around with Transformers and LLMs.",
   summary: "I am proficient in Python and ML tools.",
   avatarUrl:
-    "https://media.licdn.com/dms/image/C5603AQFgxpUFw7RTLQ/profile-displayphoto-shrink_800_800/0/1651910104349?e=1721260800&v=beta&t=Nb8c1r2MaVwz81rXdVdwKwEuH5YYQRN_y9WxTk6IWGE",
+    "https://media.licdn.com/dms/image/C5603AQFgxpUFw7RTLQ/profile-displayphoto-shrink_800_800/0/1651910104349?e=1727308800&v=beta&t=HLYomUK0DQRSsKW0rHSn04br-zcmD0yoOXPfViN0Nyc",
   personalWebsiteUrl: "https://trungle15.github.io/",
   contact: {
     email: "letrung@grinnell.edu",
@@ -99,6 +99,7 @@ export const RESUME_DATA = {
     "TypeScript",
     "HTML/CSS",
     "Bash",
+    "Rust",
   ],
   technologies: ["AWS", "Docker", "Linux", "REST APIs", "LangFlow"],
   projects: [
