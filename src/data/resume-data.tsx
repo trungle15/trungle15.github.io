@@ -4,7 +4,7 @@ import { decodeFormState } from "next/dist/server/app-render/entry-base";
 import { Description } from "@radix-ui/react-dialog";
 
 export const RESUME_DATA = {
-  name: "Trung Le",
+  name: "Krishna Nayar",
   initials: "TL",
   location: "Grinnell, IA",
   locationLink: "https://www.google.com/maps/place/Grinnell",
